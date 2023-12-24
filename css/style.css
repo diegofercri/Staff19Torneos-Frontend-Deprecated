@@ -20,10 +20,11 @@ body {
 * {
     box-sizing: border-box;
     font-family: roboto;
+    text-decoration: none;
 }
 
 h1 {
-    font-size: 12vh;
+    font-size: 10vh;
     font-family: rubik;
     font-weight: 300;
 }
@@ -107,6 +108,10 @@ section {
     margin-top: 2.5vh;
 }
 
+.pa-0 {
+    padding: 0;
+}
+
 .pa-1 {
     padding: 10vh;
 }
@@ -145,7 +150,7 @@ section {
 
 .fa {
     color: #edff30;
-    font-size: 30pt !important;
+    font-size: 28pt !important;
 }
 
 .container {
@@ -177,11 +182,11 @@ section {
     background-image: url(../img/portrait0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
 }
 
 .events li {
     margin: 5vh;
+    list-style: none;
 }
 
 .bg-img2 {
