@@ -1,9 +1,44 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+
 body {
     margin: 0;
 }
 
 * {
     box-sizing: border-box;
+    font-family: roboto;
+}
+
+h1 {
+    font-size: 10vh;
+    font-family: rubik;
+    font-weight: 300;
+}
+
+h3, .title3 {
+    font-size: 2.5vh;
+    font-family: rubik;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 2.5vh;
+    font-family: rubik;
+    font-weight: 400;
+    letter-spacing: 0.5vh;
 }
 
 section {
@@ -17,6 +52,67 @@ section {
 
 .col {
     flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    height: 100%;
+    align-items: end;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.bottom {
+    bottom: 10vh;
+}
+
+.bottom-2 {
+    bottom: 17vh;
+}
+
+.ma-0 {
+    margin: 0;
+}
+
+.ma-top-1 {
+    margin-top: 2.5vh;
+}
+
+.pa-1 {
+    padding: 10vh;
+}
+
+.pa-2 {
+    padding: 5vh;
 }
 
 .bg-15 {
@@ -43,16 +139,41 @@ section {
     color: #edff30;
 }
 
+.color-9b {
+    color: #9b9b9b;
+}
+
 .container {
     width: 50%;
     height: 100%;
+    padding: 10vh;
 }
 
-.btn {
-    border-style: none;
+.logo {
+    height: 30vh;
+}
+
+.rrss {
+    width: 70%;
+}
+
+.bg-img1 {
+    background-image: url(../img/portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -35vh;
+}
+
+.events li {
+    margin: 5vh;
+}
+
+.card {
+    height: 100%;
+    width: 30%;
     border-radius: 1vh;
-    width: 20vh;
-    height: 10vh;
-    font-size: 15pt;
-    font-weight: bold;
+}
+
+.info:hover {
+    color: #edff30;
 }
