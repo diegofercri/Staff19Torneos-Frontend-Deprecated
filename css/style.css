@@ -23,19 +23,19 @@ body {
 }
 
 h1 {
-    font-size: 10vh;
+    font-size: 12vh;
     font-family: rubik;
     font-weight: 300;
 }
 
 h3, .title3 {
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-family: rubik;
     font-weight: 300;
 }
 
 h2 {
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-family: rubik;
     font-weight: 400;
     letter-spacing: 0.5vh;
@@ -145,7 +145,7 @@ section {
 
 .fa {
     color: #edff30;
-    font-size: 24pt !important;
+    font-size: 30pt !important;
 }
 
 .container {
@@ -162,15 +162,33 @@ section {
     width: 70%;
 }
 
+.rrss div {
+    height: 8vh;
+    width: 8vh;
+    border: 2px solid #00000000;
+    border-radius: 10vh;
+}
+
+.rrss div:hover {
+    border-color: #edff30;
+}
+
 .bg-img1 {
-    background-image: url(../img/portrait.jpg);
+    background-image: url(../img/portrait0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -35vh;
+    width: 100%;
 }
 
 .events li {
     margin: 5vh;
+}
+
+.bg-img2 {
+    background-image: url(../img/portrait1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -6vh;
 }
 
 .card {
@@ -181,4 +199,11 @@ section {
 
 .info:hover {
     color: #edff30;
+}
+
+.bg-img3 {
+    background-image: url(../img/portrait2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0vh;
 }
