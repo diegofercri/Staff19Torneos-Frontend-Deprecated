@@ -143,6 +143,11 @@ section {
     color: #9b9b9b;
 }
 
+.fa {
+    color: #edff30;
+    font-size: 24pt !important;
+}
+
 .container {
     width: 50%;
     height: 100%;
