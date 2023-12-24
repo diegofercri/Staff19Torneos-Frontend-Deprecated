@@ -254,3 +254,8 @@ nav a {
     background-size: cover;
     background-position-x: 0vh;
 }
+
+iframe {
+    border-style: none;
+    border-radius: 1.5vh;
+}
