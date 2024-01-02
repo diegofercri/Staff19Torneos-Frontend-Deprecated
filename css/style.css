@@ -422,29 +422,21 @@ iframe {
         justify-content: center;
     }
 
-    .relative {
-        position: relative;
-    }
-
-    .absolute {
-        position: absolute;
-    }
-
     .fixed {
         width: 100%;
         position: fixed;
     }
 
-    .bottom {
-        bottom: 10vh;
-    }
-
-    .bottom-2 {
-        bottom: 17vh;
-    }
-
     .ma-0 {
         margin: 0;
+    }
+
+    .ma-top-1 {
+        margin-top: 7vh;
+    }
+
+    .ma-bot-1 {
+        margin-bottom: 10vh;
     }
 
     .pa-0 {
@@ -464,22 +456,26 @@ iframe {
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 6rem;
         font-family: rubik;
         font-weight: 300;
     }
-
-    h3, .title3 {
-        font-size: 2rem;
-        font-family: rubik;
-        font-weight: 300;
-    }
-
+    
     h2 {
         font-size: 2rem;
         font-family: rubik;
         font-weight: 400;
         letter-spacing: 0.5rem;
+    }
+
+    h3, .title3 {
+        font-size: 2.15rem;
+        font-family: rubik;
+        font-weight: 300;
+    }
+
+    a, p {
+        font-size: 1.2rem;
     }
 
     section {
