@@ -65,7 +65,7 @@ nav div {
     height: 6vh;
     width: 25vh;
     font-size: 13pt;
-    border: 3px solid #edff30;
+    border: 3px solid #d8ff00;
 }
 
 nav div:hover {
@@ -170,7 +170,7 @@ nav a {
 }
 
 .bg-ed {
-    background-color: #edff30;
+    background-color: #d8ff00;
     color: #151515;
 }
 
@@ -180,11 +180,11 @@ nav a {
 }
 
 .link:hover {
-    color: #edff30;
+    color: #d8ff00;
 }
 
 .color-ed {
-    color: #edff30;
+    color: #d8ff00;
 }
 
 .color-ff {
@@ -196,7 +196,7 @@ nav a {
 }
 
 .fa {
-    color: #edff30;
+    color: #d8ff00;
     font-size: 28pt !important;
 }
 
@@ -222,7 +222,7 @@ nav a {
 }
 
 .rrss div:hover {
-    border-color: #edff30;
+    border-color: #d8ff00;
 }
 
 .bg-img1 {
