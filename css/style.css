@@ -142,7 +142,156 @@ iframe {
     }
 
     .ma-top-1 {
-        margin-top: 2.5vh;
+        margin-top: 2rem;
+    }
+
+    .ma-bot-1 {
+        margin-bottom: 1rem;
+    }
+
+    .pa-0 {
+        padding: 0;
+    }
+
+    .pa-1-mvl {
+        padding: 2rem 2rem 5rem 2rem;
+    }
+
+    .pa-2-mvl {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-family: rubik;
+        font-weight: 300;
+    }
+
+    h3, .title3 {
+        font-size: 1.5rem;
+        font-family: rubik;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-family: rubik;
+        font-weight: 400;
+        letter-spacing: 0.5rem;
+    }
+
+    section {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .section-special {
+        height: 100vh;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container {
+        height: 100%;
+        margin: 1%;
+    }
+    
+    .logo {
+        height: 180px;
+    }
+    
+    .rrss {
+        width: 100%;
+    }
+
+    .rrss div {
+        height: 4.5rem;
+        width: 4.5rem;
+        border: 2px solid #00000000;
+        border-radius: 5rem;
+    }
+    
+    .rrss div:hover {
+        border-color: #d8ff00;
+    }
+
+    .fa {
+        color: #d8ff00;
+        font-size: 2.3rem !important;
+    }
+
+    .card {
+        height: 100%;
+        border-radius: 0.5rem;
+        padding: 1rem 4rem;
+        margin: 1rem 0;
+    }
+}
+
+/* Media query para tablets en orientación vertical */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos específicos para tablets en orientación vertical */
+
+    header, .bg-img1, .bg-img2, .bg-img3 {
+        display: none;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .col-mvl {
+        flex-direction: column;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-center-mvl {
+        text-align: center;
+    }
+
+    .align-center {
+        align-items: center;
+    }
+
+    .align-end {
+        height: 100%;
+        align-items: end;
+    }
+
+    .justify-evenly {
+        justify-content: space-evenly;
+    }
+
+    .justify-between {
+        justify-content: space-between;
+    }
+
+    .justify-start {
+        justify-content: start;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .justify-center-mvl {
+        justify-content: center;
+    }
+
+    .fixed {
+        width: 100%;
+        position: fixed;
+    }
+
+    .ma-0 {
+        margin: 0;
     }
 
     .pa-0 {
@@ -151,10 +300,6 @@ iframe {
 
     .pa-1-mvl {
         padding: 2rem;
-    }
-
-    .pa-2 {
-        padding: 10vh;
     }
 
     h1 {
@@ -221,7 +366,7 @@ iframe {
     }
 
     .events li {
-        margin: 5vh 0;
+        margin: 2.5rem 0;
     }
 
     .card {
@@ -230,12 +375,6 @@ iframe {
         padding: 1rem 4rem;
         margin: 1rem 0;
     }
-}
-
-/* Media query para tablets en orientación vertical */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    /* Estilos específicos para tablets en orientación vertical */
-
 }
 
 /* Media query para PCs en orientación vertical */
@@ -302,10 +441,6 @@ iframe {
 
     .ma-0 {
         margin: 0;
-    }
-
-    .ma-top-1 {
-        margin-top: 2.5vh;
     }
 
     .pa-0 {
