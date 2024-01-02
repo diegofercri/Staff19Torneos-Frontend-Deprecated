@@ -31,7 +31,7 @@
     patrocinadores
 -->
 
-<body>
+<body class="bg-15">
     <header class="bg-ed">
         <nav class="fixed flex align-center justify-evenly bg-ed">
             <a href="index.html">
@@ -186,6 +186,12 @@
                 width="600" height="450"></iframe>
         </div>
     </section>
+    <script>
+        // Obtiene la altura de la ventana al cargar la página
+        var windowHeight = window.innerHeight;
+        // Asegúrate de que la altura de tus elementos no cambie cuando la barra de direcciones se oculte
+        document.documentElement.style.setProperty('--vh', `${windowHeight}px`);
+    </Script>
 </body>
 
 </html>
