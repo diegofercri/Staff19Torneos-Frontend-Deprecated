@@ -186,7 +186,7 @@ iframe {
     }
 
     .section-special {
-        height: calc(var(--vh, 1vh));
+        height: calc(var(--vh));
     }
 
     ul {
@@ -227,7 +227,7 @@ iframe {
     .card {
         height: 100%;
         border-radius: 0.5rem;
-        padding: 1rem 4rem;
+        padding: 1rem 3rem;
         margin: 1rem 0;
     }
 }
