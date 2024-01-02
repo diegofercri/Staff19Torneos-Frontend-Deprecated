@@ -165,7 +165,7 @@ iframe {
         padding: 0;
     }
 
-    .pa-1 {
+    .pa-1-mvl {
         padding: 2rem;
     }
 
@@ -206,7 +206,6 @@ iframe {
         padding: 0;
         margin: 0;
     }
-
     
     .container {
         height: 100%;
@@ -222,10 +221,10 @@ iframe {
     }
 
     .rrss div {
-        height: 8vh;
-        width: 8vh;
+        height: 4.5rem;
+        width: 4.5rem;
         border: 2px solid #00000000;
-        border-radius: 10vh;
+        border-radius: 5rem;
     }
     
     .rrss div:hover {
@@ -243,8 +242,7 @@ iframe {
 
     .card {
         height: 100%;
-        width: 30%;
-        border-radius: 1vh;
+        border-radius: 0.5rem;
     }
 }
 
@@ -336,6 +334,10 @@ iframe {
         padding: 10vh;
     }
 
+    .pa-2-pc {
+        padding: 10vh;
+    }
+
     h1 {
         font-size: 5rem;
         font-family: rubik;
@@ -405,10 +407,10 @@ iframe {
     }
 
     .rrss div {
-        height: 8vh;
-        width: 8vh;
+        height: 4.5rem;
+        width: 4.5rem;
         border: 2px solid #00000000;
-        border-radius: 10vh;
+        border-radius: 5rem;
     }
     
     .rrss div:hover {
