@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        // Obtiene la altura de la ventana al cargar la página
+        var windowHeight = window.innerHeight;
+        // Asegúrate de que la altura de tus elementos no cambie cuando la barra de direcciones se oculte
+        document.documentElement.style.setProperty('--vh', `${windowHeight}px`);
+    </Script>
     <title>Staff 19 Torneos</title>
 </head>
 
@@ -13,19 +19,29 @@
     <header class="bg-ed">
         <nav class="bg-ed fixed flex align-center justify-evenly">
             <a href="#start">
-                <div class="flex align-center justify-center"><p>Inicio</p></div>
+                <div class="flex align-center justify-center">
+                    <p>Inicio</p>
+                </div>
             </a>
             <a href="#events">
-                <div class="flex align-center justify-center"><p>Eventos</p></div>
+                <div class="flex align-center justify-center">
+                    <p>Eventos</p>
+                </div>
             </a>
             <a href="#aboutus">
-                <div class="flex align-center justify-center"><p>Sobre Nosotros</p></div>
+                <div class="flex align-center justify-center">
+                    <p>Sobre Nosotros</p>
+                </div>
             </a>
             <a href="#whatwedo">
-                <div class="flex align-center justify-center"><p>¿Qué hacemos?</p></div>
+                <div class="flex align-center justify-center">
+                    <p>¿Qué hacemos?</p>
+                </div>
             </a>
             <a href="#contact">
-                <div class="flex align-center justify-center"><p>Contacto</p></div>
+                <div class="flex align-center justify-center">
+                    <p>Contacto</p>
+                </div>
             </a>
         </nav>
     </header>
@@ -35,10 +51,14 @@
             <h1 class="ma-0 text-center">Staff 19 Torneos</h1>
             <h3 class="ma-0 text-center">Organización de Eventos Deportivos</h3>
             <div class="flex justify-evenly bottom rrss">
-                <div class="flex align-center justify-center"><a href="https://www.instagram.com/staff19torneos/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
-                <div class="flex align-center justify-center"><a href="https://www.twitch.tv/staff19torneos" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a></div>
-                <div class="flex align-center justify-center"><a href="https://www.youtube.com/@Staff19torneos/featured" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
-                <div class="flex align-center justify-center"><a href="https://twitter.com/staff19torneos" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                <div class="flex align-center justify-center"><a href="https://www.instagram.com/staff19torneos/"
+                        target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                <div class="flex align-center justify-center"><a href="https://www.twitch.tv/staff19torneos"
+                        target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a></div>
+                <div class="flex align-center justify-center"><a href="https://www.youtube.com/@Staff19torneos/featured"
+                        target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
+                <div class="flex align-center justify-center"><a href="https://twitter.com/staff19torneos"
+                        target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
             </div>
         </div>
         <div class="container bg-img1"></div>
@@ -77,7 +97,8 @@
         </div>
         <div class="container">
             <h1 class="color-ed ma-0 pa-0">Sobre Nosotros</h1>
-            <p class="ma-top-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quas harum fugiat odio ratione? Non
+            <p class="ma-top-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quas harum fugiat odio
+                ratione? Non
                 officia eius harum quibusdam dolorum reiciendis sit animi rem molestias, fugit natus iste? Illo, earum.
             </p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quas harum fugiat odio ratione? Non
@@ -113,10 +134,12 @@
                 <a href="https://wa.link/zgpeww" target="_blank" class="color-9b link">717147168</a>
                 <h3 class="ma-0 pa-0 ma-top-1">Instagram:</h3>
                 <br>
-                <a href="https://www.instagram.com/staff19torneos/" target="_blank" class="color-9b link">@staff19torneos</a>
+                <a href="https://www.instagram.com/staff19torneos/" target="_blank"
+                    class="color-9b link">@staff19torneos</a>
                 <h3 class="ma-0 pa-0 ma-top-1">e-Mail:</h3>
                 <br>
-                <a href="mailto:staff19torneos@gmail.com" target="_blank" class="color-9b link">staff19torneos@gmail.com</a>
+                <a href="mailto:staff19torneos@gmail.com" target="_blank"
+                    class="color-9b link">staff19torneos@gmail.com</a>
             </div>
         </div>
     </section>
