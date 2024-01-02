@@ -154,11 +154,15 @@ iframe {
     }
 
     .pa-1-mvl {
-        padding: 2rem 2rem 5rem 2rem;
+        padding: 2rem;
     }
 
     .pa-2-mvl {
-        padding: 2rem;
+        padding: 5rem 2rem 5rem 2rem;
+    }
+
+    .pa-3-mvl {
+        padding: 5rem 2rem 5rem 2rem;
     }
 
     h1 {
