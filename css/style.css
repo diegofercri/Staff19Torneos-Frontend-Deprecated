@@ -409,6 +409,10 @@ iframe {
         display: flex;
     }
 
+    .flex-pc {
+        display: flex;
+    }
+
     .col {
         flex-direction: column;
     }
@@ -537,6 +541,23 @@ iframe {
         width: 50%;
         height: 100%;
         padding: 10vh;
+    }
+
+    .container2-1 {
+        width: 40%;
+        height: 100%;
+        padding: 10vh;
+    }
+
+    .container2-2 {
+        width: 60%;
+        height: 100%;
+        padding: 10vh;
+    }
+
+    .container3 {
+        width: 48%;
+        height: 100%;
     }
     
     .logo {
