@@ -480,7 +480,7 @@ iframe {
     }
 
     h1 {
-        font-size: 6rem;
+        font-size: 9vh;
         font-family: rubik;
         font-weight: 300;
     }
@@ -493,13 +493,13 @@ iframe {
     }
 
     h3, .title3 {
-        font-size: 2.15rem;
+        font-size: 4vh;
         font-family: rubik;
         font-weight: 300;
     }
 
     a, p {
-        font-size: 1.2rem;
+        font-size: 2.3vh;
     }
 
     section {
