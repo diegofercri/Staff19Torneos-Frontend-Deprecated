@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,39 +11,44 @@
 
 <body class="bg-15">
     <header class="bg-ed">
-        <nav class="bg-ed fixed flex align-center justify-evenly">
-            <a href="#start">
-                <div class="flex align-center justify-center">
-                    <p>Inicio</p>
-                </div>
-            </a>
-            <a href="#events">
-                <div class="flex align-center justify-center">
-                    <p>Próximos Eventos</p>
-                </div>
-            </a>
-            <a href="#aboutus">
-                <div class="flex align-center justify-center">
-                    <p>Sobre Nosotros</p>
-                </div>
-            </a>
-            <a href="#whatwedo">
-                <div class="flex align-center justify-center">
-                    <p>Lo que hacemos</p>
-                </div>
-            </a>
-            <a href="#contact">
-                <div class="flex align-center justify-center">
-                    <p>Contacto</p>
-                </div>
-            </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a>Todos los Eventos</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="next-events">Próximos</a>
+                        </li>
+                        <li>
+                            <a href="past-events">Terminados</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Inscripciones</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="ins-players">Jugadores</a>
+                        </li>
+                        <li>
+                            <a href="ins-teams">Equipos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="index.html#contact">Contacto</a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <section class="bg-15 flex col-mvl pa-1-mvl section-special" id="start">
+    <section class="bg-15 flex col-mvl pa-1-mvl section-special">
         <div class="container flex col col-mvl align-center justify-evenly">
             <img src="img/logoStaff.png" class="logo">
-            <h1 class="ma-0 text-center">Staff 19 Torneos</h1>
-            <h3 class="ma-0 text-center">Organización de Eventos Deportivos</h3>
+            <h1 class=" text-center">Staff 19 Torneos</h1>
+            <h3 class=" text-center">Organización de Eventos Deportivos</h3>
             <div class="flex justify-evenly bottom rrss">
                 <div class="flex align-center justify-center"><a href="https://www.instagram.com/staff19torneos/"
                         target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
@@ -57,12 +62,12 @@
         </div>
         <div class="container bg-img1"></div>
     </section>
-    <section class="bg-22 flex col-mvl pa-2-mvl" id="events">
+    <section class="bg-22 flex col-mvl pa-2-mvl">
         <div class="container flex">
-            <h1 class="color-ed ma-0 pa-0">Próximos Eventos</h1>
+            <h1 class="color-ed  ">Próximos Eventos</h1>
         </div>
         <div class="container flex align-end">
-            <ul class="events pa-0 ma-0">
+            <ul class="events">
                 <li class="ma-top-1">
                     <a href="event0.html" class="title3 color-ff link">Torneo Fut-7 en honor a la Virgen del Rosario</a>
                     <br><br>
@@ -86,11 +91,11 @@
             </ul>
         </div>
     </section>
-    <section class="bg-15 flex col-mvl pa-2-mvl" id="aboutus">
+    <section class="bg-15 flex col-mvl pa-2-mvl">
         <div class="container bg-img2 bg-ed">
         </div>
         <div class="container">
-            <h1 class="color-ed ma-0 pa-0">Sobre Nosotros</h1>
+            <h1 class="color-ed  ">Sobre Nosotros</h1>
             <p class="ma-top-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quas harum fugiat odio
                 ratione? Non
                 officia eius harum quibusdam dolorum reiciendis sit animi rem molestias, fugit natus iste? Illo, earum.
@@ -103,8 +108,8 @@
             </p>
         </div>
     </section>
-    <section class="bg-22 pa-2-pc col-mvl pa-2-mvl" id="whatwedo">
-        <h1 class="color-ed ma-0 pa-0 ma-bot-1">Lo que hacemos</h1>
+    <section class="bg-22 pa-2-pc col-mvl pa-2-mvl">
+        <h1 class="color-ed ma-bot-1">Lo que hacemos</h1>
         <div class="flex justify-between col-mvl">
             <div class="card bg-15 color-ed pa-1">
                 <h2>Fútbol 11</h2>
@@ -121,16 +126,16 @@
     <section class="bg-15 flex col-mvl pa-3-mvl" id="contact">
         <div class="container bg-img3"></div>
         <div class="container flex col justify-between">
-            <h1 class="color-ed ma-0 pa-0">Contacto</h1>
+            <h1 class="color-ed">Contacto</h1>
             <div>
-                <h3 class="ma-0 pa-0 ma-top-1">Whatsapp:</h3>
+                <h3 class="ma-top-1">Whatsapp:</h3>
                 <br>
                 <a href="https://wa.link/zgpeww" target="_blank" class="color-9b link">717147168</a>
-                <h3 class="ma-0 pa-0 ma-top-1">Instagram:</h3>
+                <h3 class="ma-top-1">Instagram:</h3>
                 <br>
                 <a href="https://www.instagram.com/staff19torneos/" target="_blank"
                     class="color-9b link">@staff19torneos</a>
-                <h3 class="ma-0 pa-0 ma-top-1">e-Mail:</h3>
+                <h3 class="ma-top-1">e-Mail:</h3>
                 <br>
                 <a href="mailto:staff19torneos@gmail.com" target="_blank"
                     class="color-9b link">staff19torneos@gmail.com</a>
