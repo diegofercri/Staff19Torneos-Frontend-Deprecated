@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Torneo 1</title>
 </head>
@@ -32,46 +32,52 @@
 -->
 
 <body class="bg-15">
-    <header class="bg-ed">
-        <nav class="fixed flex align-center justify-evenly bg-ed">
-            <a href="index.html">
-                <div class="flex align-center justify-center">
-                    <p>Inicio</p>
-                </div>
-            </a>
-            <a href="index.html#events">
-                <div class="flex align-center justify-center">
-                    <p>Eventos</p>
-                </div>
-            </a>
-            <a href="index.html#aboutus">
-                <div class="flex align-center justify-center">
-                    <p>Sobre Nosotros</p>
-                </div>
-            </a>
-            <a href="index.html#whatwedo">
-                <div class="flex align-center justify-center">
-                    <p>¿Qué hacemos?</p>
-                </div>
-            </a>
-            <a href="index.html#contact">
-                <div class="flex align-center justify-center">
-                    <p>Contacto</p>
-                </div>
-            </a>
+    <header>
+        <nav class="fixed">
+            <ul>
+                <li>
+                    <a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="../index.html#contact">Contacto</a>
+                </li>
+                <li>
+                    <a>Todos los Eventos</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="../next-events/next-events.html">Próximos Eventos</a>
+                        </li>
+                        <li>
+                            <a href="../past-events/past-events.html">Terminados</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Inscripciones</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="../ins-players/ins-players.html">Jugadores</a>
+                        </li>
+                        <li>
+                            <a href="../ins-teams/ins-teams.html">Equipos</a>
+                        </li>
+                    </ul>
+                </li>
+                
+            </ul>
         </nav>
     </header>
     <section class="flex bg-15 pa-1 col-mvl pa-1-mvl section-special">
         <div>
-            <h1 class="color-ed">Liga Express IVEI-Clínica Vascular Marbella</h1>
+            <h1 class="color-ed">Torneo Fut-7 en honor a la Virgen del Rosario</h1>
             <h3>Cabañas de la Sagra, Toledo</h3>
-            <h3>JUN / 23</h3>
-            <h3>Fútbol Sala</h3>
+            <h3>16 / SEP / 23</h3>
+            <h3>Fútbol 7</h3>
         </div>
     </section>
     <section class="flex bg-22 col-mvl pa-2-mvl">
         <div class="container container2-1">
-            <h1 class="color-ed">Información</h1>
+            <h1 class="color-ed ma-0 pa-0">Información</h1>
         </div>
         <div class="container container2-2 flex-pc justify-between">
             <div class="container3">
@@ -117,7 +123,7 @@
     </section>
     <section class="flex bg-15 col-mvl pa-2-mvl">
         <div class="container container2-1">
-            <h1 class="color-ed">Premios</h1>
+            <h1 class="color-ed ma-0 pa-0">Premios</h1>
         </div>
         <div class="container container2-2 flex-pc justify-between">
             <div class="container3">
@@ -162,7 +168,7 @@
     </section>
     <section class="flex bg-22 col-mvl pa-2-mvl">
         <div class="container">
-            <h1 class="color-ed">Entradas</h1>
+            <h1 class="color-ed ma-0 pa-0">Entradas</h1>
         </div>
         <div class="container">
             <ul class="events pa-0 ma-0">
@@ -192,7 +198,7 @@
     </section>
     <section class="flex bg-15 col-mvl pa-3-mvl">
         <div class="container flex col">
-            <h1 class="color-ed">Localización</h1>
+            <h1 class="color-ed ma-0 pa-0">Localización</h1>
             <h3>Pabellón Polideportivo de Cabañas de la Sagra</h3>
             <p>Os dejamos un mapa con la localización exacta del pabellón dónde se llevará a cabo el evento y unos
                 cuantos bares y restaurantes cercanos.</p>
@@ -200,6 +206,19 @@
         <div class="container flex align-center justify-center">
             <iframe src="https://www.google.com/maps/d/embed?mid=1xHYANeRk16Gs82FnTaqOfwZYbYT6cu4&hl=es&ehbc=2E312F"
                 width="600" height="450"></iframe>
+        </div>
+    </section>
+    <section class="flex bg-22 col-mvl pa-3-mvl">
+        <div class="container flex col">
+            <h1 class="color-ed ma-0 pa-0">Inscripción</h1>
+            <h3>Pabellón Polideportivo de Cabañas de la Sagra</h3>
+            <p>Os dejamos un mapa con la localización exacta del pabellón dónde se llevará a cabo el evento y unos
+                cuantos bares y restaurantes cercanos.</p>
+        </div>
+        <div class="container flex align-center justify-center">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeZX5s1cHJ98cwMNpjW-EQkRmHD025WARzVKlLHeC2tzpXqvQ/viewform?embedded=true"
+                class="form" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
         </div>
     </section>
     <script>
