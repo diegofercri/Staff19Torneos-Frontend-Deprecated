@@ -13,14 +13,12 @@
     src: url(../fonts/Poppins-Regular.ttf);
 }
 
-body {
-    margin: 0;
-}
-
 * {
     box-sizing: border-box;
     font-family: roboto;
     text-decoration: none;
+    outline: none;
+    border: none;
     padding: 0;
     margin: 0;
 }
@@ -96,6 +94,71 @@ iframe {
     border-style: none;
     border-radius: 1.5vh;
 }
+
+.navbar {
+    width: 50px;
+}
+
+.content {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li {
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background-color: #303030;
+    width: 50px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+}
+
+nav:hover {
+    width: 240px;
+    transition: all 0.5s ease;
+}
+
+nav a {
+    color: #d8ff00;
+    font-size: 1.1rem;
+    width: 240px;
+    padding-left: 10px;
+    height: 100%;
+}
+
+nav a:hover {
+    background-color: #d8ff00;
+    color: #151515;
+}
+
+nav .fa {
+    width: 30px;
+    font-size: 20px !important;
+    color: inherit;
+    text-align: center;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
 
 /* Media query para teléfonos en orientación vertical */
 @media screen and (max-width: 767px) {
@@ -208,7 +271,8 @@ iframe {
         font-weight: 300;
     }
 
-    h3, .title3 {
+    h3,
+    .title3 {
         font-size: 1.5rem;
         font-family: rubik;
         font-weight: 300;
@@ -226,6 +290,7 @@ iframe {
         padding: 0;
         margin: 0;
     }
+
     section {
         width: 100%;
         height: fit-content;
@@ -533,64 +598,16 @@ iframe {
         letter-spacing: 0.5rem;
     }
 
-    h3, .title3 {
+    h3,
+    .title3 {
         font-size: 4vh;
         font-family: rubik;
         font-weight: 300;
     }
 
-    a, p {
+    a,
+    p {
         font-size: 2.3vh;
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    nav ul {
-        background: #303030;
-    }
-
-    nav ul li {
-        display: inline-block;
-        position: relative;
-        cursor: pointer;
-    }
-
-    nav ul li a {
-        display: block;
-        padding: 1.2rem 1.5rem;
-        font-family: poppins, monospace;
-        color: #d8ff00;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.3rem;
-    }
-
-    nav ul li ul.dropdown li {
-        display: block;
-    }
-
-    nav ul li ul.dropdown {
-        width: 100%;
-        background: #353535ef;
-        position: absolute;
-        z-index: 999;
-        display: none;
-    }
-
-    nav ul li a:hover {
-        background: #d8ff00;
-        color: #151515;
-    }
-
-    nav ul li:hover ul.dropdown {
-        display: block;
-    }
-
-    nav .fa {
-        font-size: 25px !important;
-        color: inherit;
     }
 
     section {
