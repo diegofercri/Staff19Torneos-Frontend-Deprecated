@@ -168,6 +168,22 @@ iframe {
         margin-top: 2rem;
     }
 
+    .ma-top-1-mvl {
+        margin-top: 2rem;
+    }
+
+    .ma-top-0-mvl {
+        margin-top: 1rem;
+    }
+
+    .ma-top-2 {
+        margin-top: 3rem;
+    }
+
+    .ma-top-2-mvl {
+        margin-top: 3rem;
+    }
+
     .ma-bot-1 {
         margin-bottom: 1rem;
     }
@@ -255,8 +271,13 @@ iframe {
         margin: 1rem 0;
     }
 
+    .map {
+        height: 40vh;
+        width: 100%;
+    }
+
     .form {
-        height: 50rem;
+        height: 80vh;
         width: 100%;
         background-color: #fff;
     }
@@ -478,11 +499,11 @@ iframe {
     }
 
     .ma-top-1 {
-        margin-top: 7vh;
+        margin-top: 2.5vh;
     }
 
     .ma-top-2 {
-        margin-top: 2.5vh;
+        margin-top: 7vh;
     }
 
     .ma-bot-1 {
@@ -536,6 +557,7 @@ iframe {
     nav ul li {
         display: inline-block;
         position: relative;
+        cursor: pointer;
     }
 
     nav ul li a {
@@ -625,8 +647,8 @@ iframe {
         font-size: 2.3rem !important;
     }
 
-    .events li {
-        margin: 5vh;
+    .list li {
+        margin-top: 5vh;
     }
 
     .card {
@@ -635,9 +657,14 @@ iframe {
         border-radius: 1vh;
     }
 
-    .form {
+    .map {
         height: 100%;
         width: 85%;
+    }
+
+    .form {
+        height: 100%;
+        width: 100%;
         background-color: #fff;
     }
 }
