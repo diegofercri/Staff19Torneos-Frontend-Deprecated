@@ -49,6 +49,15 @@ body {
     color: #d8ff00;
 }
 
+.link-2 {
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+}
+
+.link-2:hover {
+    background-color: #303030;
+}
+
 .color-ed {
     color: #d8ff00;
 }
@@ -95,6 +104,10 @@ iframe {
     .bg-img2,
     .bg-img3 {
         display: none;
+    }
+
+    .block {
+        display: block;
     }
 
     .flex {
@@ -469,7 +482,7 @@ iframe {
     }
 
     .ma-top-2 {
-        margin-top: 0.5vh;
+        margin-top: 2.5vh;
     }
 
     .ma-bot-1 {
