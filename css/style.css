@@ -51,7 +51,9 @@ body {
 
 .link-2 {
     border-radius: 100px;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 0;
+    width: 23rem;
+    border: solid 2px #d8ff00;
 }
 
 .link-2:hover {
@@ -206,8 +208,7 @@ iframe {
         font-weight: 300;
     }
 
-    h3,
-    .title3 {
+    h3, .title3 {
         font-size: 1.5rem;
         font-family: rubik;
         font-weight: 300;
@@ -220,6 +221,11 @@ iframe {
         letter-spacing: 0.5rem;
     }
 
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
     section {
         width: 100%;
         height: fit-content;
@@ -227,12 +233,6 @@ iframe {
 
     .section-special {
         height: calc(var(--vh));
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
     }
 
     .container {
@@ -274,12 +274,6 @@ iframe {
     .map {
         height: calc(var(--vh)*0.4);
         width: 100%;
-    }
-
-    .form {
-        height: calc(var(--vh)*0.8);
-        width: 100%;
-        background-color: #fff;
     }
 }
 
@@ -452,6 +446,10 @@ iframe {
 @media screen and (min-width: 1024px) {
     /* Estilos específicos para PCs en orientación vertical */
 
+    .block {
+        display: block;
+    }
+
     .flex {
         display: flex;
     }
@@ -535,8 +533,7 @@ iframe {
         letter-spacing: 0.5rem;
     }
 
-    h3,
-    .title3 {
+    h3, .title3 {
         font-size: 4vh;
         font-family: rubik;
         font-weight: 300;
@@ -598,28 +595,38 @@ iframe {
 
     section {
         height: 100vh;
+        padding: 10vh;
     }
 
     .container {
         width: 50%;
         height: 100%;
-        padding: 10vh;
+    }
+
+    .container-title {
+        width: 100%;
+    }
+
+    .container-content {
+        width: 100%;
     }
 
     .container2-1 {
-        width: 40%;
+        width: 35%;
         height: 100%;
-        padding: 10vh;
+    }
+
+    .container2-1-empty {
+        width: 40%;
     }
 
     .container2-2 {
-        width: 60%;
+        width: 55%;
         height: 100%;
-        padding: 10vh;
     }
 
     .container3 {
-        width: 48%;
+        width: 45%;
         height: 100%;
     }
 
@@ -658,13 +665,7 @@ iframe {
     }
 
     .map {
-        height: 100%;
-        width: 85%;
-    }
-
-    .form {
-        height: 100%;
-        width: 100%;
-        background-color: #fff;
+        height: 50vh;
+        width: 80%;
     }
 }
