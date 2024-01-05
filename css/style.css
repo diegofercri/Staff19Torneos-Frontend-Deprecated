@@ -97,7 +97,6 @@ iframe {
 
 .navbar {
     width: 50px;
-    height: 120%;
 }
 
 .content {
@@ -165,7 +164,6 @@ nav .fa {
 @media screen and (max-width: 767px) {
     /* Estilos específicos para teléfonos en orientación vertical */
 
-    header,
     .bg-img1,
     .bg-img2,
     .bg-img3 {
@@ -223,11 +221,6 @@ nav .fa {
 
     .justify-center-mvl {
         justify-content: center;
-    }
-
-    .fixed {
-        width: 100%;
-        position: fixed;
     }
 
     .ma-top-1 {
@@ -293,8 +286,10 @@ nav .fa {
     }
 
     section {
+        padding: 6rem 1rem 6rem 1rem;
         width: 100%;
-        height: fit-content;
+        min-height: calc(var(--vh));
+        max-height: fit-content;
     }
 
     .section-special {
