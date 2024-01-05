@@ -272,12 +272,12 @@ iframe {
     }
 
     .map {
-        height: 40vh;
+        height: calc(var(--vh)*0.4);
         width: 100%;
     }
 
     .form {
-        height: 80vh;
+        height: calc(var(--vh)*0.8);
         width: 100%;
         background-color: #fff;
     }
