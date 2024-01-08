@@ -243,7 +243,6 @@
     font-size: 1.2rem;
 }
 
-
 .main-menu__link {
     width: 100%;
     padding: 1rem 1.5rem 1rem 1.5rem;
@@ -251,7 +250,6 @@
     background-color: #353535;
     color: #d8ff00;
 }
-
 
 .main-menu__icon {
     margin-right: 0.6rem;
@@ -286,10 +284,40 @@
     display: none;
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-90%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+
 .dropdown__content--show {
     display: block;
     width: 55%;
     margin: 0 auto;
+    z-index: -100;
+    animation: slideDown 1s ease-in-out;
 }
 
 .dropdown__item {
