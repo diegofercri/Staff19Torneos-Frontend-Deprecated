@@ -21,10 +21,11 @@ const dropdownToggle1 = document.getElementById('dropdown__toggle1');
 
 dropdownToggle0.addEventListener('click', e => {
     dropdownContent0.classList.toggle('dropdown__content--show');
+    dropdownToggle0.querySelector('.fa-angle-down').classList.toggle('rotated');
 });
-
 dropdownToggle1.addEventListener('click', e => {
     dropdownContent1.classList.toggle('dropdown__content--show');
+    dropdownToggle1.querySelector('.fa-angle-down').classList.toggle('rotated');
 });
 
 window.addEventListener('resize',() => {
