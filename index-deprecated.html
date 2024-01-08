@@ -1,90 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style-navbar.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Staff 19 Torneos</title>
 </head>
 
-<body>
-
-    <nav id="nav" class="nav">
-        <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
-            <i class="fa fa-bars toggle-menu__icon" aria-hidden="true"></i>
-        </div>
-        <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
-            <i class="fa fa-close toggle-menu__icon" aria-hidden="true"></i>
-        </div>
-        <ul id="main-menu" class="main-menu">
-            <li class="main-menu__item">
-                <a href="" class="main-menu__link">
-                    <i class="fa fa-home main-menu__icon" aria-hidden="true"></i>
-                    Inicio
-                </a>
-            </li>
-            <li class="main-menu__item">
-                <a href="" class="main-menu__link">
-                    <i class="fa fa-address-book main-menu__icon" aria-hidden="true"></i>
-                    Contacto
-                </a>
-            </li>
-            <li class="main-menu__item">
-                <a href="" class="main-menu__link">
-                    <i class="fa fa-trophy main-menu__icon" aria-hidden="true"></i>
-                    Torneos
-                </a>
-            </li>
-            <li class="main-menu__item">
-                <a href="" class="main-menu__link">
-                    <i class="fa fa-pencil-square-o main-menu__icon" aria-hidden="true"></i>
-                    Inscripciones
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <main class="main">
-        <section class="bg-15 height-100">
-            <div class="container">
+<body class="bg-15 flex">
+    <div>
+        <nav class="flex col justify-center">
+            <ul>
+                <li>
+                    <a href="index.html" class="flex align-center">
+                        <div>
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                            <span class="nav-item">Inicio</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html#contact" class="flex align-center">
+                        <div>
+                            <i class="fa fa-address-book" aria-hidden="true"></i>
+                            <span class="nav-item">Contacto</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="flex align-center">
+                        <div>
+                            <i class="fa fa-trophy" aria-hidden="true"></i>
+                            <span class="nav-item">Eventos</span>
+                        </div>
+                    </a>
+                    <!--
+                    <ul class="dropdown">
+                        <li>
+                            <a href="../next-events/next-events.html">Próximos Eventos</a>
+                        </li>
+                        <li>
+                            <a href="../past-events/past-events.html">Terminados</a>
+                        </li>
+                    </ul>
+                    -->
+                </li>
+                <li>
+                    <a class="flex align-center">
+                        <div>
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            <span class="nav-item">Inscripciones</span>
+                        </div>
+                    </a>
+                    <!--
+                    <ul class="dropdown">
+                        <li>
+                            <a href="../ins-players/ins-players.html">Jugadores</a>
+                        </li>
+                        <li>
+                            <a href="../ins-teams/ins-teams.html">Equipos</a>
+                        </li>
+                    </ul>
+                    -->
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <section class="bg-15 flex col-mvl section-special">
+            <div class="container flex col col-mvl align-center justify-evenly">
                 <img src="img/logoStaff.png" class="logo">
-                <div>
-                    <h1 class="title1 text-align-center">Staff 19 Torneos</h1>
-                </div>
-                <div>
-                    <h2 class="title2 text-align-center">Organización de Eventos Deportivos</h2>
-                </div>
-                <div class="rrss">
-                    <a href="https://www.instagram.com/staff19torneos/" target="_blank">
-                        <div class="rrss__item">
-                            <i class="fa fa-instagram rrss__icon" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                    <a href="https://www.twitch.tv/staff19torneos" target="_blank">
-                        <div class="rrss__item">
-                            <i class="fa fa-twitch rrss__icon" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                    <a href="https://www.youtube.com/@Staff19torneos/featured" target="_blank">
-                        <div class="rrss__item">
-                    
-                            <i class="fa fa-youtube-play rrss__icon" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                    <a href="https://twitter.com/staff19torneos" target="_blank">
-                        <div class="rrss__item">
-                            <i class="fa fa-twitter rrss__icon" aria-hidden="true"></i>
-                        </div>
-                    </a>
+                <h1 class=" text-center">Staff 19 Torneos</h1>
+                <h3 class=" text-center">Organización de Eventos Deportivos</h3>
+                <div class="flex justify-evenly bottom rrss">
+                    <div class="flex align-center justify-center"><a href="https://www.instagram.com/staff19torneos/"
+                            target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                    <div class="flex align-center justify-center"><a href="https://www.twitch.tv/staff19torneos"
+                            target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a></div>
+                    <div class="flex align-center justify-center"><a
+                            href="https://www.youtube.com/@Staff19torneos/featured" target="_blank"><i
+                                class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
+                    <div class="flex align-center justify-center"><a href="https://twitter.com/staff19torneos"
+                            target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
                 </div>
             </div>
-            <div class="bg-img1"></div>
+            <div class="container bg-img1"></div>
         </section>
         <section class="bg-22 flex col-mvl">
             <div class="container flex">
-                <h1 class="title1 color-ed">Próximos Eventos</h1>
+                <h1 class="color-ed  ">Próximos Eventos</h1>
             </div>
             <div class="container flex align-end">
                 <ul class="list">
@@ -118,10 +124,10 @@
             </div>
         </section>
         <section class="bg-15 flex col-mvl">
-            <div class="bg-img2">
+            <div class="container bg-img2 bg-ed">
             </div>
             <div class="container">
-                <h1 class="title1 color-ed">Sobre Nosotros</h1>
+                <h1 class="color-ed  ">Sobre Nosotros</h1>
                 <p class="ma-top-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quas harum fugiat
                     odio
                     ratione? Non
@@ -139,44 +145,39 @@
             </div>
         </section>
         <section class="bg-22 pa-2-pc col-mvl">
-            <h1 class="title1 color-ed">Lo que hacemos</h1>
+            <h1 class="color-ed ma-bot-1">Lo que hacemos</h1>
             <div class="flex justify-between col-mvl">
                 <div class="card bg-15 color-ed pa-1">
-                    <h2 class="title3 color-ed">Fútbol 11</h2>
+                    <h2>Fútbol 11</h2>
                 </div>
                 <div class="card bg-15 color-ed pa-1">
-                    <h2 class="title3 color-ed">Fútbol 7</h2>
+                    <h2>Fútbol 7</h2>
                 </div>
                 <div class="card bg-15 color-ed pa-1">
-                    <h2 class="title3 color-ed">Fútbol Sala</h2>
+                    <h2>Fútbol Sala</h2>
                 </div>
             </div>
         </section>
         <section class="bg-15 flex col-mvl section-special" id="contact">
-            <div class="bg-img3"></div>
-            <div class="container">
-                <a class="title1 color-ed">Contacto</a>
+            <div class="container bg-img3"></div>
+            <div class="container flex col justify-between">
+                <h1 class="color-ed">Contacto</h1>
                 <div>
-                    <h3 class="title2 ma-top-1">Whatsapp:</h3>
+                    <h3 class="ma-top-1">Whatsapp:</h3>
                     <br>
                     <a href="https://wa.link/zgpeww" target="_blank" class="color-9b link">717147168</a>
-                    <h3 class="title2 ma-top-1">Instagram:</h3>
+                    <h3 class="ma-top-1">Instagram:</h3>
                     <br>
                     <a href="https://www.instagram.com/staff19torneos/" target="_blank"
                         class="color-9b link">@staff19torneos</a>
-                    <h3 class="title2 ma-top-1">e-Mail:</h3>
+                    <h3 class="ma-top-1">e-Mail:</h3>
                     <br>
                     <a href="mailto:staff19torneos@gmail.com" target="_blank"
                         class="color-9b link">staff19torneos@gmail.com</a>
                 </div>
             </div>
         </section>
-    </main>
-
-    <script src="../js/height.js"></script>
-
-    <script src="../js/navbar.js"></script>
-
+    </div>
 </body>
 
 </html>

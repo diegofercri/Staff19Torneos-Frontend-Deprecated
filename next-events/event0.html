@@ -51,33 +51,30 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="dropdown">
                     <a class="flex align-center">
                         <div>
                             <i class="fa fa-trophy" aria-hidden="true"></i>
                             <span class="nav-item">Eventos</span>
                         </div>
                     </a>
-                    <!--
-                    <ul class="dropdown">
+                    <ul class="dropdown-content">
                         <li>
-                            <a href="../next-events/next-events.html">Próximos Eventos</a>
+                            <a href="../next-events/next-events.html">En curso</a>
                         </li>
                         <li>
                             <a href="../past-events/past-events.html">Terminados</a>
                         </li>
                     </ul>
-                    -->
                 </li>
-                <li>
+                <li class="dropdown">
                     <a class="flex align-center">
                         <div>
                             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                             <span class="nav-item">Inscripciones</span>
                         </div>
                     </a>
-                    <!--
-                    <ul class="dropdown">
+                    <ul class="dropdown-content">
                         <li>
                             <a href="../ins-players/ins-players.html">Jugadores</a>
                         </li>
@@ -85,7 +82,6 @@
                             <a href="../ins-teams/ins-teams.html">Equipos</a>
                         </li>
                     </ul>
-                    -->
                 </li>
             </ul>
         </nav>
@@ -285,13 +281,13 @@
                 </div>
             </div>
         </section>
-        <script>
-            // Obtiene la altura de la ventana al cargar la página
-            var windowHeight = window.innerHeight;
-            // Asegúrate de que la altura de tus elementos no cambie cuando la barra de direcciones se oculte
-            document.documentElement.style.setProperty('--vh', `${windowHeight}px`);
-        </script>
     </div>
+    <script>
+        // Obtiene la altura de la ventana al cargar la página
+        var windowHeight = window.innerHeight;
+        // Asegúrate de que la altura de tus elementos no cambie cuando la barra de direcciones se oculte
+        document.documentElement.style.setProperty('--vh', `${windowHeight}px`);
+    </script>
 </body>
 
 </html>
