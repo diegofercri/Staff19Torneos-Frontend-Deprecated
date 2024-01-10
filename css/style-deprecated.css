@@ -1,0 +1,292 @@
+
+
+/* Media query para teléfonos en orientación vertical */
+@media screen and (max-width: 767px) {
+    /* Estilos específicos para teléfonos en orientación vertical */
+
+    .ma-top-1 {
+        margin-top: 2rem;
+    }
+
+    .ma-top-1-mvl {
+        margin-top: 2rem;
+    }
+
+    .ma-top-0-mvl {
+        margin-top: 1rem;
+    }
+
+    .ma-top-2 {
+        margin-top: 3rem;
+    }
+
+    .ma-top-2-mvl {
+        margin-top: 3rem;
+    }
+
+    .ma-bot-1 {
+        margin-bottom: 1rem;
+    }
+
+    .pa-1-mvl {
+        padding: 2rem;
+    }
+
+    .pa-2-mvl {
+        padding: 5rem 2rem 5rem 2rem;
+    }
+
+    .pa-3-mvl {
+        padding: 5rem 2rem 5rem 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-family: rubik;
+        font-weight: 300;
+    }
+
+    h3,
+    .title3 {
+        font-size: 1.5rem;
+        font-family: rubik;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-family: rubik;
+        font-weight: 400;
+        letter-spacing: 0.5rem;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .container {
+        height: 100%;
+        margin: 1%;
+    }
+
+}
+
+/* Media query para PCs en orientación vertical */
+@media screen and (min-width: 1024px) {
+    /* Estilos específicos para PCs en orientación vertical */
+
+    .ma-top-1 {
+        margin-top: 2.5vh;
+    }
+
+    .ma-top-2 {
+        margin-top: 7vh;
+    }
+
+    .ma-bot-1 {
+        margin-bottom: 10vh;
+    }
+
+    .pa-1 {
+        padding: 5vh;
+    }
+
+    .pa-2 {
+        padding: 10vh;
+    }
+
+    .pa-2-pc {
+        padding: 10vh;
+    }
+
+    h1 {
+        font-size: 9vh;
+        font-family: rubik;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-family: rubik;
+        font-weight: 400;
+        letter-spacing: 0.5rem;
+    }
+
+    h3,
+    .title3 {
+        font-size: 4vh;
+        font-family: rubik;
+        font-weight: 300;
+    }
+
+    a,
+    p {
+        font-size: 2.3vh;
+    }
+
+    .navbar {
+        width: 50px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    nav ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        background-color: #303030;
+        width: 50px;
+        overflow: hidden;
+        transition: width 0.2s linear;
+    }
+
+    nav:hover {
+        width: 240px;
+        transition: all 0.5s ease;
+    }
+
+    nav a {
+        color: #d8ff00;
+        font-size: 1.1rem;
+        width: 240px;
+        padding-left: 10px;
+        height: 100%;
+    }
+
+    nav a:hover {
+        background-color: #d8ff00;
+        color: #151515;
+    }
+
+    nav .fa {
+        width: 30px;
+        font-size: 20px !important;
+        color: inherit;
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-left: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #303030;
+        /* Asegúrate de que este color coincida con el de tu barra de navegación */
+        min-width: 240px;
+        /* Este valor debe ser igual al ancho de tu barra de navegación cuando está expandida */
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: #d8ff00;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #d8ff00;
+        color: #151515;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    section {
+        height: 100vh;
+        padding: 10vh;
+    }
+
+    .container {
+        width: 50%;
+        height: 100%;
+    }
+
+    .container-title {
+        width: 100%;
+    }
+
+    .container-content {
+        width: 100%;
+    }
+
+    .container2-1 {
+        width: 35%;
+        height: 100%;
+    }
+
+    .container2-1-empty {
+        width: 40%;
+    }
+
+    .container2-2 {
+        width: 55%;
+        height: 100%;
+    }
+
+    .container3 {
+        width: 45%;
+        height: 100%;
+    }
+
+    .logo {
+        height: 30vh;
+    }
+
+    .rrss {
+        width: 70%;
+    }
+
+    .rrss div {
+        height: 4.5rem;
+        width: 4.5rem;
+        border: 2px solid #00000000;
+        border-radius: 5rem;
+    }
+
+    .rrss div:hover {
+        border-color: #d8ff00;
+    }
+
+    .fa {
+        color: #d8ff00;
+        font-size: 2.3rem !important;
+    }
+
+    .list li {
+        margin-top: 5vh;
+    }
+
+    .card {
+        height: 100%;
+        width: 30%;
+        border-radius: 1vh;
+    }
+
+    .map {
+        height: 50vh;
+        width: 80%;
+    }
+}
