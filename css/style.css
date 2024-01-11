@@ -26,7 +26,7 @@
 
 .link-2 {
     border-radius: 100px;
-    padding: 0.7rem 0;
+    padding: .7rem 0;
     width: 23rem;
     border: solid 2px #d8ff00;
 }
@@ -43,7 +43,7 @@
     height: 100vh;
     padding-top: 5rem;
     transform: translateX(-350px);
-    transition: transform 0.3s;
+    transition: transform .3s;
 }
 
 @media screen and (min-width: 768px) {
@@ -112,7 +112,7 @@
 
 .nav--show .toggle-menu__close {
     display: flex;
-    margin: 1rem 0 0 0.8rem;
+    margin: 1rem 0 0 .8rem;
     height: 3rem;
     width: 3rem;
     border-radius: 5rem;
@@ -154,7 +154,7 @@
 }
 
 .main-menu__icon {
-    margin-right: 0.6rem;
+    margin-right: .6rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -179,7 +179,7 @@
 .dropdown__arrow{
     margin-left: auto;
     transform: rotate(0deg);
-    transition: transform 0.5s ease-in-out;
+    transition: transform .5s ease-in-out;
     font-size: 1.5rem !important;
 }
 
@@ -193,7 +193,7 @@
     margin-left: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.6s ease-in-out;
+    transition: max-height .6s ease-in-out;
 }
 
 .dropdown__content--show {
@@ -207,17 +207,17 @@
 .dropdown__link {
     font-size: 1.05rem;
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
     margin-right: 2.2rem;
     border-right: 3px solid #00000000;
 }
 
 .dropdown__item:first-child {
-    margin-top: 0.4rem;
+    margin-top: .4rem;
 }
 
 .dropdown__item:last-child {
-    margin: 0.8rem 0;
+    margin: .8rem 0;
 }
 
 .dropdown__link {
@@ -254,7 +254,7 @@ section {
 
 
 .logo {
-    height: calc(var(--vh)*0.25);
+    height: calc(var(--vh)*.25);
 }
 
 
@@ -293,7 +293,7 @@ section {
 .list > li a {
     display: flex;
     color: #9b9b9b;
-    margin-bottom: 0.2rem;
+    margin-bottom: .2rem;
 }
 
 .list > li a:last-child {
@@ -304,9 +304,9 @@ section {
     font-family: rubik;
     font-size: 1.3rem;
     font-weight: 380;
-    letter-spacing: 0.2rem;
+    letter-spacing: .2rem;
     color: #edeced;
-    margin-bottom: 0.5rem;
+    margin-bottom: .8rem;
 }
 
 .paragraph p {
@@ -323,7 +323,7 @@ section {
 
 .card {
     display: flex;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
 }
 
 .card > a {
@@ -336,6 +336,6 @@ iframe {
 }
 
 .map {
-    height: calc(var(--vh)*0.4);
+    height: calc(var(--vh)*.4);
     width: 100%;
 }
