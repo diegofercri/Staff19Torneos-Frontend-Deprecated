@@ -26,7 +26,7 @@
 
 .link-2 {
     border-radius: 100px;
-    padding: .7rem 0;
+    padding: 0.7rem 0;
     width: 23rem;
     border: solid 2px #d8ff00;
 }
@@ -34,6 +34,7 @@
 .link-2:hover {
     background-color: #303030;
 }
+
 
 .nav {
     position: fixed;
@@ -216,7 +217,7 @@
 .dropdown__arrow{
     margin-left: auto;
     transform: rotate(0deg);
-    transition: transform .5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     font-size: 1.5rem !important;
 }
 
@@ -229,7 +230,7 @@
     margin-left: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height .6s ease-in-out;
+    transition: max-height 0.6s ease-in-out;
 }
 
 .dropdown__content--show {
@@ -237,11 +238,11 @@
 }
 
 .dropdown__item:first-child {
-    margin-top: .4rem;
+    margin-top: 0.4rem;
 }
 
 .dropdown__item:last-child {
-    margin: .8rem 0;
+    margin: 0.8rem 0;
 }
 
 .dropdown__link {
@@ -279,7 +280,7 @@ section {
 
 
 .logo {
-    height: calc(var(--vh)*.25);
+    height: calc(var(--vh)*0.25);
 }
 
 
@@ -318,7 +319,7 @@ section {
 .list > li a {
     display: flex;
     color: #9b9b9b;
-    margin-bottom: .2rem;
+    margin-bottom: 0.2rem;
 }
 
 .list > li a:last-child {
@@ -329,9 +330,9 @@ section {
     font-family: rubik;
     font-size: 1.3rem;
     font-weight: 380;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     color: #edeced;
-    margin-bottom: .8rem;
+    margin-bottom: 1rem;
 }
 
 .paragraph p {
@@ -348,7 +349,7 @@ section {
 
 .card {
     display: flex;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 }
 
 .card > a {
@@ -361,6 +362,6 @@ iframe {
 }
 
 .map {
-    height: calc(var(--vh)*.4);
+    height: calc(var(--vh)*0.4);
     width: 100%;
 }
