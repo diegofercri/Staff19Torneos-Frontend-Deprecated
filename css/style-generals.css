@@ -105,6 +105,10 @@
     justify-content: space-evenly;
 }
 
+.justify-content-around {
+    justify-content: space-around;
+}
+
 .justify-content-center {
     justify-content: center;
 }
@@ -119,8 +123,4 @@
 
 .text-align-end {
     text-align: end;
-}
-
-.height-100 {
-    height: 100%;
 }
