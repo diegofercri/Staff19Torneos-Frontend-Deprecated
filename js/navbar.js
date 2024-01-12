@@ -18,7 +18,6 @@ const dropdownList0 = document.getElementById('dropdown-list0');
 const dropdownToggle0 = document.getElementById('dropdown-toggle0');
 const dropdownList1 = document.getElementById('dropdown-list1');
 const dropdownToggle1 = document.getElementById('dropdown-toggle1');
-const navbar = document.getElementById('navbar');
 
 dropdownToggle0.addEventListener('click', e => {
     dropdownList0.classList.toggle('dropdown-list--show');
@@ -35,10 +34,10 @@ function imgCloseChecker() {
     // Verifica si ambos toggles están activados
     if (dropdownList0.classList.contains('dropdown-list--show') || dropdownList1.classList.contains('dropdown-list--show')) {
         // Asegura que la clase esté presente para ocultar la imagen
-        navbar.classList.add('nav-logo--hidden');
+        nav.classList.add('nav-logo--hidden');
     } else {
         // Asegura que la clase esté ausente para mostrar la imagen
-        navbar.classList.remove('nav-logo--hidden');
+        nav.classList.remove('nav-logo--hidden');
     }
 }
 
