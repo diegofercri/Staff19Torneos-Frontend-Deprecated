@@ -26,7 +26,7 @@
 
 .link-2 {
     border-radius: 100px;
-    padding: 0.7rem 0;
+    padding: .7rem 0;
     width: 23rem;
     border: solid 2px #d8ff00;
 }
@@ -35,13 +35,12 @@
     background-color: #303030;
 }
 
-
 .nav {
     position: fixed;
     top: 0;
     width: 300px;
     height: 100vh;
-    padding-top: 5rem;
+    padding: 5rem 0;
     display: flex;
     flex-direction: column;
     transform: translateX(-300px);
@@ -51,7 +50,7 @@
 @media screen and (min-width: 768px) {
     .nav {
         width: 50px;
-        padding-top: 0;
+        padding: 0;
         overflow: hidden;
         transform: translateX(0);
         display: flex;
@@ -62,7 +61,6 @@
 @media screen and (min-width: 1024px) {
     .nav {
         width: 300px;
-        padding-top: 0;
         transform: translateX(0);
     }
 }
@@ -85,10 +83,26 @@
 
 @media screen and (min-width: 1024px) {
     .nav-logo {
-        display: block;
-        height: 6rem;
-        width: 6rem;
-        margin: 1rem auto 0 auto;
+        display: flex;
+        height: 20vh;
+        margin: 0 auto;
+        padding-top: 1rem;
+        transition: all 1s;
+    }
+
+    .nav-logo--hidden {
+        justify-content: center;
+    }
+
+    .nav-logo--hidden > img {
+        opacity: 0;
+        height: 0;
+        transition: all 1s;
+        transform: scale(0);
+    }
+
+    .nav-logo--hidden > ul {
+        transform: translateY(-0.5rem);
     }
 }
 
@@ -174,18 +188,19 @@
 
 .main-menu {
     gap: 1rem;
+    transition: all 0.5s;
 }
 
 .main-menu > li {
     font-size: 1.2rem;
 }
 
-.main-menu__link {
+.main-menu > li > a {
     width: 100%;
-    padding: 1rem .1rem 1rem 1.5rem;
+    padding: 1rem 1.5rem;
 }
 
-.main-menu__icon {
+.main-menu i {
     margin-right: 1.5rem;
 }
 
@@ -202,59 +217,66 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .main-menu__link {
+    .main-menu > li > a {
         width: 100%;
-        padding: 1rem .1rem 1rem 2rem;
+        padding: 1rem 2rem;
     }
 }
 
 
-.dropdown__toggle {
-    position: relative;
+.dropdown-toggle {
     cursor: pointer;
 }
 
-.dropdown__arrow{
+.dropdown-arrow{
     margin-left: auto;
-    transform: rotate(0deg);
-    transition: transform 0.5s ease-in-out;
+    margin-right: 0 !important;
     font-size: 1.5rem !important;
+    transform: rotate(0deg);
+    transition: transform .5s ease-in-out;
 }
 
 .rotated {
     transform: rotate(180deg);
 }
 
-.dropdown__content {
+.dropdown-list {
     width: 100%;
     margin-left: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.6s ease-in-out;
+    transition: max-height .6s ease-in-out;
 }
 
-.dropdown__content--show {
+.dropdown-list--show {
     max-height: 160px;
 }
 
-.dropdown__item:first-child {
-    margin-top: 0.4rem;
+.dropdown-list li:first-child {
+    margin-top: .4rem;
 }
 
-.dropdown__item:last-child {
-    margin: 0.8rem 0;
+.dropdown-list li:last-child {
+    margin: .8rem 0;
 }
 
-.dropdown__link {
+.dropdown-list a {
     font-size: 1.05rem;
     width: 100%;
     padding: 0.5rem 1rem;
     border-right: 3px solid #454545;
-    margin: 0 2.05rem;
+    margin: 0 1.95rem;
 }
 
-.dropdown__link:hover {
+.dropdown-list a:hover {
     border-color: #d8ff00;
+}
+
+@media screen and (min-width: 1024px) {
+    .dropdown-list a {
+        padding: 0.8rem 2rem;
+        margin: 0 2.45rem;
+    }
 }
 
 
@@ -284,7 +306,7 @@ section {
 
 
 .logo {
-    height: calc(var(--vh)*0.25);
+    height: calc(var(--vh)*.25);
 }
 
 
@@ -323,7 +345,7 @@ section {
 .list > li a {
     display: flex;
     color: #9b9b9b;
-    margin-bottom: 0.2rem;
+    margin-bottom: .2rem;
 }
 
 .list > li a:last-child {
@@ -334,9 +356,9 @@ section {
     font-family: rubik;
     font-size: 1.3rem;
     font-weight: 380;
-    letter-spacing: 0.2rem;
+    letter-spacing: .2rem;
     color: #edeced;
-    margin-bottom: 1rem;
+    margin-bottom: .8rem;
 }
 
 .paragraph p {
@@ -353,7 +375,7 @@ section {
 
 .card {
     display: flex;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
 }
 
 .card > a {
@@ -366,6 +388,6 @@ iframe {
 }
 
 .map {
-    height: calc(var(--vh)*0.4);
+    height: calc(var(--vh)*.4);
     width: 100%;
 }
