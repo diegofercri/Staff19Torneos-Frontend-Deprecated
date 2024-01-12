@@ -14,19 +14,33 @@ toggleMenuClose.addEventListener('click', e => {
 });
 
 
-const dropdownContent0 = document.getElementById('dropdown__content0');
-const dropdownToggle0 = document.getElementById('dropdown__toggle0');
-const dropdownContent1 = document.getElementById('dropdown__content1');
-const dropdownToggle1 = document.getElementById('dropdown__toggle1');
+const dropdownList0 = document.getElementById('dropdown-list0');
+const dropdownToggle0 = document.getElementById('dropdown-toggle0');
+const dropdownList1 = document.getElementById('dropdown-list1');
+const dropdownToggle1 = document.getElementById('dropdown-toggle1');
+const navbar = document.getElementById('navbar');
 
 dropdownToggle0.addEventListener('click', e => {
-    dropdownContent0.classList.toggle('dropdown__content--show');
+    dropdownList0.classList.toggle('dropdown-list--show');
     dropdownToggle0.querySelector('.fa-angle-down').classList.toggle('rotated');
+    imgCloseChecker();
 });
 dropdownToggle1.addEventListener('click', e => {
-    dropdownContent1.classList.toggle('dropdown__content--show');
+    dropdownList1.classList.toggle('dropdown-list--show');
     dropdownToggle1.querySelector('.fa-angle-down').classList.toggle('rotated');
+    imgCloseChecker();
 });
+
+function imgCloseChecker() {
+    // Verifica si ambos toggles están activados
+    if (dropdownList0.classList.contains('dropdown-list--show') || dropdownList1.classList.contains('dropdown-list--show')) {
+        // Asegura que la clase esté presente para ocultar la imagen
+        navbar.classList.add('nav-logo--hidden');
+    } else {
+        // Asegura que la clase esté ausente para mostrar la imagen
+        navbar.classList.remove('nav-logo--hidden');
+    }
+}
 
 window.addEventListener('resize',() => {
     if (nav.classList.contains('nav--show')) {
