@@ -260,7 +260,11 @@
 section {
     min-height: calc(var(--vh));
     max-height: fit-content;
-    padding: 5%;
+    padding: 10vh 5%;
+}
+
+.section-special {
+    padding-bottom: 5%;
 }
 
 #start {
