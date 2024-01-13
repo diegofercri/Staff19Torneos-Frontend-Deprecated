@@ -35,11 +35,16 @@ function imgCloseChecker() {
     if (dropdownList0.classList.contains('dropdown-list--show') || dropdownList1.classList.contains('dropdown-list--show')) {
         // Asegura que la clase esté presente para ocultar la imagen
         nav.classList.add('nav-logo--hidden');
+        setTimeout(function () {
+            nav.classList.add('nav-logo--hidden2');
+        }, 500)
     } else {
         // Asegura que la clase esté ausente para mostrar la imagen
         nav.classList.remove('nav-logo--hidden');
+        nav.classList.remove('nav-logo--hidden2');
     }
 }
+
 
 window.addEventListener('resize',() => {
     if (nav.classList.contains('nav--show')) {

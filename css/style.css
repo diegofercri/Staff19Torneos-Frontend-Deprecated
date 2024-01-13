@@ -47,7 +47,7 @@
     transition: all 0.5s;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .nav {
         width: 50px;
         padding: 0;
@@ -61,6 +61,8 @@
 @media screen and (min-width: 1024px) {
     .nav {
         width: 300px;
+        justify-content: center;
+        gap: 13vh;
         transform: translateX(0);
     }
 }
@@ -70,7 +72,7 @@
     overflow: scroll;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .nav--show {
         width: 300px;
         transition: all .5s;
@@ -81,28 +83,39 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
-    .nav-logo {
-        display: flex;
-        height: 20vh;
-        margin: 0 auto;
-        padding-top: 1rem;
-        transition: all 1s;
+@media screen and (min-width: 1024px) and (min-height: 768px) {
+    @keyframes imgLoad {
+        0% {
+            opacity: 0;
+            height: 0;
+            transform: scale(0);
+            transform: translate(-50%, 0);
+        }
+        100% {
+            opacity: 1;
+            height: 20vh;
+            transform: scale(1);
+            transform: translate(-50%, 0);
+        }
     }
 
-    .nav-logo--hidden {
-        justify-content: center;
+    .nav-logo {
+        display: flex;
+        position: absolute;
+        top: 7vh;
+        left: 50%;
+        height: 20vh;
+        max-width: 70%;
+        transform: translate(-50%, 0);
+        transition: all .7s;
+        animation: imgLoad 1s ease-in-out;
     }
 
     .nav-logo--hidden > img {
         opacity: 0;
         height: 0;
-        transition: all 1s;
         transform: scale(0);
-    }
-
-    .nav-logo--hidden > ul {
-        transform: translateY(-0.5rem);
+        transition: all .7s;
     }
 }
 
@@ -132,7 +145,7 @@
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .toggle-menu__open {
         opacity: 0;
         margin: 0;
@@ -166,21 +179,21 @@
 }
 
 
-.main {
+main {
     margin-left: 0;
     height: 100vh;
     background-color: #151515;
     overflow: scroll;
 }
 
-@media screen and (min-width: 768px) {
-    .main {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
         margin-left: 50px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .main {
+    main {
         margin-left: 300px;
     }
 }
@@ -204,7 +217,7 @@
     margin-right: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .main-menu a > div {
         transform: translateX(-7px);
         transition: transform 0.5s;
