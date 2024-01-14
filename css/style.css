@@ -38,6 +38,7 @@
 .nav {
     position: fixed;
     top: 0;
+    z-index: 100;
     width: 300px;
     height: 100vh;
     padding: 5rem 0;
@@ -299,12 +300,12 @@ section {
     padding: 10vh 5%;
 }
 
-.section-special {
-    padding-bottom: 5%;
+#start {
+    padding: 0 2%;
 }
 
-#start {
-    padding: 0;
+.section-special {
+    padding-bottom: 5%;
 }
 
 
