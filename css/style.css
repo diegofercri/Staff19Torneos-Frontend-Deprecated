@@ -301,7 +301,7 @@ section {
 }
 
 #start {
-    padding: 0 2%;
+    padding: 0 5%;
 }
 
 .section-special {
@@ -332,7 +332,7 @@ section {
 .rrss__item {
     height: 3.8rem;
     width: 3.8rem;
-    border: 2.5px solid #00000000;
+    border: 2px solid #00000000;
     border-radius: 5rem;
 }
 
