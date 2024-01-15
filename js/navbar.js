@@ -25,14 +25,14 @@ dropdownToggle0.addEventListener('click', e => {
     imgCloseChecker();
 });
 dropdownToggle1.addEventListener('click', e => {
-    dropdownList1.classList.toggle('dropdown-list--show');
+    dropdownList1.classList.toggle('dropdown-list--show-1');
     dropdownToggle1.querySelector('.fa-angle-down').classList.toggle('rotated');
     imgCloseChecker();
 });
 
 function imgCloseChecker() {
     // Verifica si ambos toggles están activados
-    if (dropdownList0.classList.contains('dropdown-list--show') || dropdownList1.classList.contains('dropdown-list--show')) {
+    if (dropdownList0.classList.contains('dropdown-list--show') || dropdownList1.classList.contains('dropdown-list--show-1')) {
         // Asegura que la clase esté presente para ocultar la imagen
         nav.classList.add('nav-logo--hidden');
         setTimeout(function () {
