@@ -22,7 +22,25 @@
     border: none;
     padding: 0;
     margin: 0;
+    /*
+     *  Scrollbar Firefox
+     *  Nota: son propiedades experimentales
+     */
+    scrollbar-color: #d8ff00 #303030;
+    scrollbar-width: auto;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d8ff00;
+    border-radius: 5px;
+    border: 3px solid #303030;
+}
+
 
 .color-ed {
     color: #d8ff00;

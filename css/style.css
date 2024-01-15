@@ -184,7 +184,6 @@ main {
     margin-left: 0;
     height: 100vh;
     background-color: #151515;
-    overflow: scroll;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
