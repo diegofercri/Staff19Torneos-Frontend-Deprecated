@@ -383,16 +383,44 @@ section {
 }
 
 .cards {
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
 }
 
 .card {
-    display: flex;
     border-radius: .5rem;
+    width: 100%;
+}
+
+.card-y {
+    border-radius: 3rem;
+    width: 3rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: .8rem;
+    color: #d8ff00 !important;
 }
 
 .card > a {
     padding: 2rem 3rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .cards {
+            display: flex;
+            flex-direction: row;
+            /* Para cuando haya muchas tarjetas
+            justify-content: center;
+            */
+            gap: 1.5rem;
+            flex-wrap: wrap;
+    }
+        
+    .card {
+        width: fit-content;
+    }
 }
 
 

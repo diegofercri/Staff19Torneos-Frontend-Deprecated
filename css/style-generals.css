@@ -47,15 +47,15 @@
 
 
 .color-ed {
-    color: #d8ff00;
+    color: #d8ff00 !important;
 }
 
 .color-ff {
-    color: #edeced;
+    color: #edeced !important;
 }
 
 .color-9b {
-    color: #9b9b9b;
+    color: #9b9b9b !important;
 }
 
 .title1 {
