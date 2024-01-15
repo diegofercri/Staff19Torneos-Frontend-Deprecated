@@ -94,7 +94,7 @@
         }
         100% {
             opacity: 1;
-            height: 20vh;
+            height: 15vh;
             transform: scale(1);
             transform: translate(-50%, 0);
         }
@@ -103,9 +103,9 @@
     .nav-logo {
         display: flex;
         position: absolute;
-        top: 7vh;
+        top: 10vh;
         left: 50%;
-        height: 20vh;
+        height: 15vh;
         max-width: 70%;
         transform: translate(-50%, 0);
         transition: all .7s;
@@ -177,25 +177,6 @@
     height: 3rem;
     width: 3rem;
     border-radius: 5rem;
-}
-
-
-main {
-    margin-left: 0;
-    height: 100vh;
-    background-color: #151515;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    main {
-        margin-left: 50px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    main {
-        margin-left: 300px;
-    }
 }
 
 
@@ -293,10 +274,52 @@ main {
 }
 
 
+main {
+    margin-left: 0;
+    height: 100vh;
+    background-color: #151515;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
 section {
     min-height: calc(var(--vh));
     max-height: fit-content;
     padding: 10vh 5%;
+}
+
+@media screen and (min-width: 1900px) {
+    section {
+        width: 50%;
+        min-height: calc(var(--vh)*.75);
+    }
+
+    #start {
+        width: 100%;
+        min-height: calc(var(--vh));
+    }
+
+    .border {
+        border-left: 2px solid #454545;
+    }
 }
 
 #start {
@@ -305,6 +328,13 @@ section {
 
 .section-special {
     padding-bottom: 5%;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1900px) {
+    .section-special {
+        justify-content: start;
+    }
 }
 
 
