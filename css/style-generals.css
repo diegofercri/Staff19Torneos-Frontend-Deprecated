@@ -41,6 +41,10 @@
     border: 3px solid #303030;
 }
 
+::-webkit-scrollbar-button {
+    height: 5px;
+}
+
 
 .color-ed {
     color: #d8ff00;
