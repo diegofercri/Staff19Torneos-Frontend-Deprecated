@@ -389,6 +389,7 @@ section {
     display: flex;
     color: #9b9b9b;
     margin-bottom: .2rem;
+    width: fit-content;
 }
 
 .list > li a:last-child {
