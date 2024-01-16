@@ -162,3 +162,15 @@
 .ma-top-1 {
     margin-top: 1.7rem;
 }
+
+.link:hover {
+    color: #d8ff00 !important;
+}
+
+.link-2 {
+    color: #d8ff00 !important;
+}
+
+.link-2:hover {
+    color: #9b9b9b !important;
+}
