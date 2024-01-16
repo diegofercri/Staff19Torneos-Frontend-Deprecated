@@ -21,11 +21,20 @@ const dropdownToggle1 = document.getElementById('dropdown-toggle1');
 
 dropdownToggle0.addEventListener('click', e => {
     dropdownList0.classList.toggle('dropdown-list--show');
+    if (dropdownList1.classList.contains('dropdown-list--show-1')) {
+        dropdownList1.classList.remove('dropdown-list--show-1');
+        dropdownToggle1.querySelector('.fa-angle-down').classList.toggle('rotated');
+    }
     dropdownToggle0.querySelector('.fa-angle-down').classList.toggle('rotated');
     imgCloseChecker();
 });
+
 dropdownToggle1.addEventListener('click', e => {
     dropdownList1.classList.toggle('dropdown-list--show-1');
+    if (dropdownList0.classList.contains('dropdown-list--show')) {
+        dropdownList0.classList.remove('dropdown-list--show');
+        dropdownToggle0.querySelector('.fa-angle-down').classList.toggle('rotated');
+    }
     dropdownToggle1.querySelector('.fa-angle-down').classList.toggle('rotated');
     imgCloseChecker();
 });
