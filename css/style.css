@@ -41,11 +41,11 @@
     z-index: 100;
     width: 300px;
     height: 100vh;
+    padding: 5rem 0;
     display: flex;
     flex-direction: column;
     transform: translateX(-300px);
     transition: all .5s;
-    overflow-x: scroll;
     /* Firefox Scrollbar */
     scrollbar-width: none;
 }
