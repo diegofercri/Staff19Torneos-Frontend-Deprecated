@@ -269,28 +269,58 @@ main {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     main {
+        display: flex;
+        flex-wrap: wrap;
         margin-left: 50px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     main {
-        margin-left: 300px;
-    }
-}
-
-@media screen and (min-width: 1900px) {
-    main {
         display: flex;
         flex-wrap: wrap;
+        margin-left: 300px;
     }
 }
 
 
 section {
+    width: 100%;
     min-height: calc(var(--vh));
     max-height: fit-content;
     padding: 10vh 5%;
+}
+
+#start {
+    padding: 0 5%;
+}
+
+#start-events-left {
+    padding: 0 5%;
+}
+
+#start-events-right {
+    padding: 6rem 5%;
+    min-height: fit-content;
+}
+
+.section-special {
+    padding-bottom: 5%;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    #start-events-left {
+        width: 50%;
+        min-height: calc(var(--vh));
+        padding: 0 5%;
+    }
+
+    #start-events-right {
+        width: 50%;
+        min-height: calc(var(--vh));
+        padding: 6rem 5%;
+    }
 }
 
 @media screen and (min-width: 1900px) {
@@ -304,30 +334,18 @@ section {
         min-height: calc(var(--vh));
     }
 
-    #start-events {
-        width: 100%;
+    #start-events-left {
+        width: 50%;
         min-height: calc(var(--vh));
+        padding: 0 5%;
     }
 
-    .border {
-        border-left: 2px solid #454545;
+    #start-events-right {
+        width: 50%;
+        min-height: calc(var(--vh));
+        padding: 6rem 5%;
     }
-}
 
-#start {
-    padding: 0 5%;
-}
-
-#start-events {
-    padding: 5%;
-}
-
-.section-special {
-    padding-bottom: 5%;
-    justify-content: space-between;
-}
-
-@media screen and (min-width: 1900px) {
     .section-special {
         justify-content: start;
     }
@@ -349,7 +367,8 @@ section {
 }
 
 .cartel {
-    height: calc(var(--vh)*.5);
+    max-height: calc(var(--vh)*.7);
+    max-width: 100%;
     border-radius: 10px;
 }
 

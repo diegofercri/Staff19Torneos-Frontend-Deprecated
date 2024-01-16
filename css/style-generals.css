@@ -89,13 +89,13 @@
 
 @media screen and (min-width: 1900px) {
     .bg-15-bigger {
-            background-color: #151515 !important;
-            color: #edeced;
+        background-color: #151515 !important;
+        color: #edeced;
     }
     
-        .bg-22-bigger {
-            background-color: #222222 !important;
-            color: #edeced;
+    .bg-22-bigger {
+        background-color: #222222 !important;
+        color: #edeced;
     }
 }
 
