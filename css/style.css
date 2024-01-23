@@ -407,8 +407,14 @@ section {
 
 .link-list {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     gap: 1.5rem;
+}
+
+@media screen and (min-width: 1023px) {
+    .link-list-exception {
+        width: 50% !important;
+    }
 }
 
 .link-list__item {
@@ -502,6 +508,44 @@ section {
     .card {
         width: fit-content;
     }
+}
+
+
+@keyframes animate {
+    25% {
+        background-image: url(../events/ended/2023-SEP-16/img/slide/4.jpg);
+    }
+    50% {
+        background-image: url(../events/ended/2023-SEP-16/img/slide/3.jpg);
+    }
+    75% {
+        background-image: url(../events/ended/2023-SEP-16/img/slide/2.jpg);
+    }
+    100% {
+        background-image: url(../events/ended/2023-SEP-16/img/slide/1.jpg);
+    }
+}
+
+.slide-container {
+    position: relative;
+    width: 380px;
+    height: 500px;
+}
+
+.position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide {
+    background-image: url(../events/ended/2023-SEP-16/img/slide/1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    animation: animate 10s infinite;
 }
 
 
