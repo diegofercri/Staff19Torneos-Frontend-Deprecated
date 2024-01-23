@@ -1,3 +1,10 @@
+:root {
+    --image-1: 'ruta/1.jpg';
+    --image-2: 'ruta/2.jpg';
+    --image-3: 'ruta/3.jpg';
+    --image-4: 'ruta/4.jpg';
+}
+
 .nav {
     position: fixed;
     top: 0;
@@ -477,16 +484,16 @@ section {
 
 @keyframes animate {
     25% {
-        background-image: url(../events/ended/2023-SEP-16/img/slide/4.jpg);
+        background-image: url(var(--image-1));
     }
     50% {
-        background-image: url(../events/ended/2023-SEP-16/img/slide/3.jpg);
+        background-image: url(var(--image-2));
     }
     75% {
-        background-image: url(../events/ended/2023-SEP-16/img/slide/2.jpg);
+        background-image: url(var(--image-3));
     }
     100% {
-        background-image: url(../events/ended/2023-SEP-16/img/slide/1.jpg);
+        background-image: url(var(--image-4));
     }
 }
 
@@ -504,7 +511,7 @@ section {
 }
 
 .slide {
-    background-image: url(../events/ended/2023-SEP-16/img/slide/1.jpg);
+    background-image: url(var(--image-1));
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -539,8 +546,6 @@ section {
     color: #151515;
     font-weight: 700;
 }
-
-
 
 
 .cards-partners {
