@@ -87,7 +87,7 @@
     color: #edeced;
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width:1919px) {
     .bg-15-bigger {
         background-color: #151515 !important;
         color: #edeced;

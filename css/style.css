@@ -330,7 +330,7 @@ section {
     }
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width:1919px) {
     section {
         width: 50%;
         min-height: calc(var(--vh)*.75);
