@@ -356,12 +356,17 @@ section {
     .section-special {
         justify-content: start;
     }
+
+    .section-end {
+        width: 100%;
+    }
 }
 
 
 .content {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    height: 100%;
 }
 
 
@@ -400,7 +405,8 @@ section {
 
 
 .link-list {
-    width: 100%;
+    margin: 0 auto;
+    width: 50%;
     gap: 1.5rem;
 }
 
