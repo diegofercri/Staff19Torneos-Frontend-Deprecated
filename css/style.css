@@ -493,13 +493,11 @@ section {
     .cards {
             display: flex;
             flex-direction: row;
-            /* Para cuando haya muchas tarjetas
-            justify-content: center;
-            */
             gap: 1.5rem;
             flex-wrap: wrap;
+            height: fit-content;
     }
-        
+    
     .card {
         width: fit-content;
     }
