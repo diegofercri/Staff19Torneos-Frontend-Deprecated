@@ -7,21 +7,21 @@ const style = document.createElement('style');
 style.innerHTML = `
   @keyframes animate {
     25% {
-        background-image: url(../${bodyId}/img/slide/4.jpg);
+        background-image: url(../${bodyId}/img/slide/8.jpg);
     }
     50% {
-        background-image: url(../${bodyId}/img/slide/3.jpg);
+        background-image: url(../${bodyId}/img/slide/7.jpg);
     }
     75% {
-        background-image: url(../${bodyId}/img/slide/2.jpg);
+        background-image: url(../${bodyId}/img/slide/6.jpg);
     }
     100% {
-        background-image: url(../${bodyId}/img/slide/1.jpg);
+        background-image: url(../${bodyId}/img/slide/5.jpg);
     }
   }
 
   .slide {
-    background-image: url(../${bodyId}/img/slide/1.jpg);
+    background-image: url(../${bodyId}/img/slide/5.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
