@@ -6,13 +6,16 @@ const style = document.createElement('style');
 // Añades la regla @keyframes al elemento 'style'
 style.innerHTML = `
   @keyframes animate {
-    25% {
+    20% {
+        background-image: url(../${bodyId}/img/slide/5.jpg);
+    }
+    40% {
         background-image: url(../${bodyId}/img/slide/4.jpg);
     }
-    50% {
+    60% {
         background-image: url(../${bodyId}/img/slide/3.jpg);
     }
-    75% {
+    80% {
         background-image: url(../${bodyId}/img/slide/2.jpg);
     }
     100% {
