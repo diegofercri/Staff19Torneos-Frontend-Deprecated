@@ -502,7 +502,7 @@ section {
 }
 
 .link-list__item {
-    height: 3.8rem;
+    height: 4.5rem;
     width: 100%;
     font-size: 1.3rem;
     color: #d8ff00;
@@ -514,6 +514,10 @@ section {
     background-color: #d8ff00;
     color: #151515;
     font-weight: 700;
+}
+
+.link-list__item div:nth-child(2) {
+    font-size: .8rem !important;
 }
 
 
