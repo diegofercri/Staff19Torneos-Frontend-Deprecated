@@ -22,6 +22,7 @@ style.innerHTML = `
   }
 
   .slide {
+    background-image: url(../${bodyId}/img/slide/1.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;

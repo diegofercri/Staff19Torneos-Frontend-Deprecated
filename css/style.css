@@ -488,15 +488,6 @@ section {
     transform: translate(-50%, -50%);
 }
 
-.slide {
-    background-image: url(../events/ended/2023-SEP-16/img/slide/1.jpg);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    animation: animate 10s infinite;
-}
-
 
 .link-list {
     margin: 0 auto;
