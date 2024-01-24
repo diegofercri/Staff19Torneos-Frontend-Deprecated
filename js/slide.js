@@ -6,6 +6,10 @@ const style = document.createElement('style');
 // Añades la regla @keyframes al elemento 'style'
 style.innerHTML = `
   @keyframes animate {
+    0% {
+      background-image: url(../${bodyId}/img/slide/1.jpg);
+      background-position: center;
+    }
     20% {
         background-image: url(../${bodyId}/img/slide/5.jpg);
         background-position: center;
@@ -29,7 +33,6 @@ style.innerHTML = `
   }
 
   .slide {
-    background-image: url(../${bodyId}/img/slide/1.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
