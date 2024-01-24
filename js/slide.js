@@ -1,8 +1,8 @@
 // Obtienes el id del body
-var bodyId = document.body.id;
+const bodyId = document.body.id;
 console.log('Body ID:', bodyId);
 // Creas un nuevo elemento 'style'
-var style = document.createElement('style');
+const style = document.createElement('style');
 
 // Añades la regla @keyframes al elemento 'style'
 style.innerHTML = `
