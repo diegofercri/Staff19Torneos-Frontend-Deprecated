@@ -33,6 +33,7 @@ style.innerHTML = `
   }
 
   .slide {
+    background-image: url(../${bodyId}/img/slide/1.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
