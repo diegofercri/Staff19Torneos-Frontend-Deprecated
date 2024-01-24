@@ -8,23 +8,29 @@ style.innerHTML = `
   @keyframes animate {
     20% {
         background-image: url(../${bodyId}/img/slide/5.jpg);
+        background-position: center;
     }
     40% {
         background-image: url(../${bodyId}/img/slide/4.jpg);
+        background-position: center;
     }
     60% {
         background-image: url(../${bodyId}/img/slide/3.jpg);
+        background-position: center;
     }
     80% {
         background-image: url(../${bodyId}/img/slide/2.jpg);
+        background-position: center;
     }
     100% {
         background-image: url(../${bodyId}/img/slide/1.jpg);
+        background-position: center;
     }
   }
 
   .slide {
     background-image: url(../${bodyId}/img/slide/1.jpg);
+    background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
