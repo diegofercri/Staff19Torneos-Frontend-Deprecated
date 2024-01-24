@@ -1,6 +1,5 @@
 // Obtienes el id del body
 const bodyId = document.body.id;
-console.log('Body ID:', bodyId);
 // Creas un nuevo elemento 'style'
 const style = document.createElement('style');
 
