@@ -174,3 +174,15 @@
 .link-2:hover {
     color: #9b9b9b !important;
 }
+
+.gap-0 {
+    gap: .7rem;
+}
+
+.gap-1 {
+    gap: 1.5rem;
+}
+
+.gap-2 {
+    gap: 3rem;
+}
