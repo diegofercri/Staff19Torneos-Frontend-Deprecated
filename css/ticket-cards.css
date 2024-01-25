@@ -89,13 +89,17 @@
 }
 
 .ticket-slider-navlink {
-  border-radius: 5px;
+  border-radius: 20px;
   border: 2px solid #d8ff00;
   color: #d8ff00;
 }
 
 .ticket-slider-navlink div {
-  padding: 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
 }
 
 .ticket-slider-navlink:hover {
