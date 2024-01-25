@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="../../../css/style-generals.css">
     <link rel="stylesheet" href="../../../css/navbar.css">
+    <link rel="stylesheet" href="../../../css/ticket-cards.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>[rellena]</title>
 </head>
@@ -120,7 +121,7 @@
             <div>
                 <h1 class="title1 color-ed">Información</h1>
             </div>
-            <div class=" content">
+            <div class="content">
                 <ul class="list">
                     <li>
                         <a>Fecha y hora:</a>
@@ -212,25 +213,154 @@
             <div>
                 <h1 class="title1 color-ed">Entradas</h1>
             </div>
-            <div class="content">
-                <ul class="list">
-                    <li>
-                        <a>Precio: [rellena:x]€</a>
-                        <a>Niños y jugadores exentos</a>
-                    </li>
-                    <li>
-                        <a>Te daremos:</a>
-                        <a> 1 pulsera identificativa [rellena:ej: 1 refresco, 1 bocadillo]</a>
-                    </li>
-                    <li>
-                        <a>Te daremos acceso a:</a>
-                        <a>Todo el recinto deportivo para espectadores y la zona de terraza</a>
-                    </li>
-                    <li>
-                        <a>Compra ya tus entrades en:</a>
-                        <a>staff19torneos.com</a>
-                    </li>
-                </ul>
+            <div class="content flex align-items-center justify-content-center">
+                <div class="ticket-slider text-align-center">
+                    <div class="ticket-slides flex">
+                        <div id="slides1" class="ticket-slide flex col align-items-center justify-content-between">
+                            <div class="flex col gap-1">
+                                <h3 class="ticket-title2">Básica</h3>
+                                <h1 class="ticket-title1">5€</h1>
+                                <ul class="flex col gap-0">
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Acceso durante 1 día</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Entrada para el graderio</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Pulsera identificativa</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Consumición</a>
+                                    </li>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Bocadillo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
+                            </a>
+                        </div>
+                        <div id="slides2" class="ticket-slide flex col align-items-center justify-content-between">
+                            <div class="flex col gap-1">
+                                <h3 class="ticket-title2">Doble</h3>
+                                <h1 class="ticket-title1">8€</h1>
+                                <ul class="flex col gap-0">
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Acceso durante 2 días</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Entrada para el graderio</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Pulsera identificativa</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Consumición</a>
+                                    </li>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Bocadillo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
+                            </a>
+                        </div>
+                        <div id="slides3" class="ticket-slide flex col align-items-center justify-content-between">
+                            <div class="flex col gap-1">
+                                <h3 class="ticket-title2">Triple</h3>
+                                <h1 class="ticket-title1">10€</h1>
+                                <ul class="flex col gap-0">
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Acceso durante 3 días</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Entrada para el graderio</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Pulsera identificativa</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Consumición</a>
+                                    </li>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Bocadillo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
+                            </a>
+                        </div>
+                        <div id="slides4" class="ticket-slide flex col align-items-center justify-content-between">
+                            <div class="flex col gap-1">
+                                <h3 class="ticket-title2">Triple + Comida</h3>
+                                <h1 class="ticket-title1">20€</h1>
+                                <ul class="flex col gap-0">
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Acceso durante 3 días</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Entrada para el graderio</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>Pulsera identificativa</a>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>3 consumiciones</a>
+                                    </li>
+                                    </li>
+                                    <li class="flex align-items-center gap-0">
+                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
+                                        <a>3 bocadillos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ticket-slider-nav flex align-items-center justify-content-around">
+                        <a class="ticket-slider-navlink" href="#slides1">
+                            <div>1</div>
+                        </a>
+                        <a class="ticket-slider-navlink" href="#slides2">
+                            <div>2</div>
+                        </a>
+                        <a class="ticket-slider-navlink" href="#slides3">
+                            <div>3</div>
+                        </a>
+                        </a>
+                        <a class="ticket-slider-navlink" href="#slides4">
+                            <div>4</div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="bg-15 bg-22-bigger flex col">
