@@ -329,8 +329,17 @@ section {
     display: none;
 }
 
+
 footer {
+    position: relative;
     width: 100%;
     height: 60px;
     font-size: .8rem;
+}
+
+.privacy {
+    position: absolute;
+    right: 1rem;
+    bottom: 0.2rem;
+    font-size: 0.6rem;
 }
