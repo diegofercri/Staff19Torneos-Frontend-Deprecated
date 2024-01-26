@@ -2,14 +2,15 @@
   position: relative;
   width: 100%;
   max-width: 400px;
-  height: 550px;
-  margin: 20px;
+  min-height: 550px;
+  max-height: fit-content;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .ticket-slides {
-  height: 500px;
+  min-height: 500px;
+  max-height: fit-content;
   overflow-x: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
@@ -58,6 +59,7 @@
 }
 
 .ticket-button {
+  margin-top: 20px;
   width: 150px;
   font-family: rubik !important;
   font-weight: 450;
