@@ -77,7 +77,6 @@
 }
 
 .ticket-slide:nth-of-type(even) .ticket-button:hover {
-  
   border-color: #404040;
   color: #404040;
 }
